@@ -18,3 +18,7 @@ jobs:
         steps:
             - name: Say Welcome
               run: echo "Welcome All"
+            - name: Success step
+              run: |
+                 echo "I will Succeed"
+                 exit 0
